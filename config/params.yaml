@@ -1,0 +1,12 @@
+turtlebot3_controller:
+  ros__parameters:
+    linear_speed: 0.2
+    angular_speed: 0.5
+    obstacle_distance_threshold: 0.5
+
+
+turtlebot3_model:
+  ros__parameters:
+    use_laser: false
+    linear_pid: [10.0, 0.0, 0.1]
+    angular_pid: [10.0, 0.0, 0.1]
